@@ -9,12 +9,20 @@
   </head>
   <body>
     <div class="container">
-      <div class="grow-buttons">
+      <div id="plant-form">
+        <form name ="plant-form">
+          Plant Name: <input type="text" name="plant-form" id="nameInput">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <!-- <div class="grow-buttons">
         <button class="btn-success" id="feed">Add soil</button>
         <button class="btn-success" id="show-state">Current Stats</button>
       </div>
       <h1>Your Plant's Values</h1>
       <h3><div id="soil-value">0</div></h3>
+      <h3><div id="plant-name"></div></h3> -->
+      <div id="plants-added"></div>
     </div>
   </body>
 </html>
